@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="nav.css">
+    <title>Academics</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #003366;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .department-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .department-list li {
+            margin: 20px;
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .department-list li h2 {
+            margin-top: 0;
+        }
+
+        .course-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .course-list li {
+            margin-bottom: 10px;
+        }
+
+        .course-list a {
+            text-decoration: none;
+            color: #337ab7;
+        }
+
+        .course-list a:hover {
+            color: #23527c;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="National_University_of_Computer_and_Emerging_Sciences_logo.png" alt="FAST University Logo">
+        <h1>FAST University Islamabad</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Academic Programs</h1>
+        <ul class="department-list">
+            <li>
+                <h2>Department of Computer Science</h2>
+                <ul class="course-list">
+                    <li><a href="data_structures.html">CS301: Data Structures and Algorithms</a></li>
+                    <li><a href="computer-science/computer-networks.html">CS401: Computer Networks</a></li>
+                    <li><a href="computer-science/database-systems.html">CS302: Database Systems</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Department of Cybersecurity</h2>
+                <ul class="course-list">
+                    <li><a href="cybersecurity/fundamentals.html">CY201: Cybersecurity Fundamentals</a></li>
+                    <li><a href="cybersecurity/web-application-security.html">CY302: Web Application Security</a></li>
+                    <li><a href="cybersecurity/network-security.html">CY401: Network Security</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Department of Artificial Intelligence</h2>
+                <ul class="course-list">
+                    <li><a href="ai/machine-learning.html">AI301: Machine Learning</a></li>
+                    <li><a href="ai/deep-learning.html">AI401: Deep Learning</a></li>
+                    <li><a href="ai/natural-language-processing.html">AI402: Natural Language Processing</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Department of Software Engineering</h2>
+                <ul class="course-list">
+                    <li><a href="software-engineering/principles.html">SE201: Software Engineering Principles</a></li>
+                    <li><a href="software-engineering/agile-methodologies.html">SE301: Agile Development Methodologies</a></li>
+                    <li><a href="software-engineering/software-testing.html">SE302: Software Testing and Quality Assurance</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Department of Management Sciences</h2>
+                <ul class="course-list">
+                    <li><a href="management/principles.html">MGT201: Management Principles and Practices</a></li>
+                    <li><a href="management/marketing.html">MGT301: Marketing Management</a></li>
+                    <li><a href="management/finance.html">MGT302: Financial Management</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2024 FAST University Islamabad. All rights reserved.</p>
+    </div>
+</body>
+</html>
